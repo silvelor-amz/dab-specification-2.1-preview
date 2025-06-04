@@ -364,7 +364,7 @@ This operation lists the applications installed on the device. This list can be 
 
 #### Operation Latency
 
-The operation MUST be completed within 250 milliseconds.
+The operation MUST be completed within 1 second.
 
 #### Request Format
 
@@ -1373,6 +1373,10 @@ For settings with boolean values:
 #### Request Topic
 
 `dab/<device-id>/system/settings/get`
+
+#### Operation Latency
+
+The operation MUST be completed within 750 milliseconds.
 
 #### Request Format
 
