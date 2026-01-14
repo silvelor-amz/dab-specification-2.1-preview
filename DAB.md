@@ -1844,7 +1844,7 @@ This operation captures the current output of the device and returns an image th
 
 #### Operation Latency
 
-The operation MUST be completed within 2 seconds.
+The operation MUST be completed within 10 seconds.
 
 #### Request Format
 
